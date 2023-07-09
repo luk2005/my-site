@@ -1,0 +1,3002 @@
+<!--
+/********************************************************************/
+/*                                                             		*/
+/*                          lukssite                     	        */
+/*                                                             		*/
+/* Copyright 2023 												    */
+/*   			         		   		            				*/
+/* Author:															*/
+/* Pichiu Luca Cristian       				     		            */
+/*                                                                  */
+/* esercizi C++ (informatica)                                       */
+/********************************************************************/
+-->
+
+<!DOCTYPE html>
+
+<html lang="it">
+
+    <head>
+
+        <title> Esercizi in C++: 115 esercizi per la pratica della programmazione </title>
+
+        <meta name="description" content="Pratica il C++ con 115 esercizi su condizioni, cicli, funzioni, array, matrici, classi e oggetti.  
+        Esplora i concetti fondamentali del C++ con degli esercizi.">
+        <meta name="keywords" content="esercizi ogni giorno">
+
+        <meta name="robots" content="all">
+
+        <meta name="copyright" content="copyright 2023 lukssite">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
+        <link rel="manifest" href="./Favicon/site.webmanifest">
+
+        <meta name="google-site-verification" content="V1MKtNqyuEe72Qqz3yy5RIbRg0yvrD7NuKhyHasZ4Es" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta charset="UTF-8">
+
+        <style>
+
+            img {
+
+                width: 90%;
+
+            }
+
+            h1 {
+
+                font-size: 300%;
+
+            }
+
+            h2 {
+
+                font-size: 300%;
+
+            }
+
+            h3 {
+
+                font-size: 250%;
+
+            }
+
+            h3 {
+
+                font-size: 200%;
+
+            }
+
+            p {
+
+                font-size: 150%;
+
+            }
+
+            .container {
+
+                max-width: 900px;
+                border: 1px solid black;
+                padding: 20px;
+                margin-top: 150px;
+                background-color: #F5F5F5;
+
+            }
+
+            a {
+
+                font-size: 150%;
+
+            }
+
+            body {
+
+                background-color: #F5F5DC;
+
+            }
+
+            #footer {
+
+                height: 125px;
+                width: auto;
+                background-color: #111111;
+                color: white;
+
+            }
+
+        </style>
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6416822263103571" crossorigin="anonymous"></script>
+
+        <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
+
+        <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+
+    </head>
+
+
+    <body>
+
+        <amp-auto-ads type="adsense" data-ad-client="ca-pub-6416822263103571"></amp-auto-ads>
+
+        <link rel="amphtml" href="http://example.com/amp/news">
+
+        <link rel="canonical" href="http://example.com/news">
+
+        <amp-ad width="100vw" height="320"
+     type="adsense"
+     data-ad-client="ca-pub-6416822263103571"
+     data-ad-slot="8234855575"
+     data-auto-format="rspv"
+     data-full-width="">
+  <div overflow=""></div>
+</amp-ad>
+
+        <div style="
+            background-color: white;
+            color: white;
+            position: fixed;
+            left: 1;
+            bottom: -1;
+            top: 150px;
+            width: 300px;
+        ">
+
+            <!-- google ads -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6416822263103571" data-ad-slot="8234855575" data-ad-format="auto" data-full-width-responsive="true"></ins>
+
+            <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+        
+            <div style="
+            position: absolute;
+            background-color: white;
+            color: white;
+            top: 0;
+            right: 0;
+            ">  
+
+            </div>
+
+        </div>
+
+
+        
+        <div style="
+            background-color: white;
+            color: white;
+            position: fixed;
+            right: 0;
+            bottom: -1;
+            top: 150px;
+            width: 300px;
+        ">
+
+            <!-- google ads -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6416822263103571" data-ad-slot="8234855575" data-ad-format="auto" data-full-width-responsive="true"></ins>
+
+            <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+        
+            <div style="
+            position: absolute;
+            background-color: white;
+            color: white;
+            top: 0;
+            left: 0;
+            ">  
+
+            </div>
+
+        </div>
+
+        <center>
+
+            <div class="container">
+
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6416822263103571" data-ad-slot="8234855575" data-ad-format="auto" data-full-width-responsive="true"></ins>
+
+                <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+
+                <div style="background-color: orange">
+
+                    <h1> ESERCIZI 
+
+                        <a href="https://www.google.com/search?q=c%2B%2B&rlz=1C1RXQR_itIT1056IT1056&oq=c%2B%2B&aqs=chrome.0.69i59j69i57j0i271l2j69i60l2j69i61.285j0j9&sourceid=chrome&ie=UTF-8" style="text-decoration: none; color:black">
+
+                            C++ 
+
+                        </a>
+
+                    </h1>
+
+                </div>
+
+                <br>
+
+                <h2> Introduzione </h2>
+
+                <h3> Esercizio 1: Hello World </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi introduzione/Introduzione_es1.png"> 
+
+                    <img src="esercizi introduzione/Introduzione_es1.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che visualizza "Hello World!" sullo schermo. </p>
+
+                <a href="https://www.onlinegdb.com/edit/KILIIqdCD#" style="color:red"> Soluzione C++ </a>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3> Esercizio 2: Interazione e Output </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi introduzione/Introduzione_es2.png"> 
+
+                    <img src="esercizi introduzione/Introduzione_es2.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero e lo mostra sullo schermo. </p>
+
+                <a href="https://www.onlinegdb.com/edit/mRfYnzwWl" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+
+                
+                <h3> Esercizio 3: Somma di 2 numeri </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi introduzione/Introduzione_es3.png"> 
+
+                    <img src="esercizi introduzione/Introduzione_es3.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede due numeri interi e ne calcola la somma. </p>
+
+                <a href="https://www.onlinegdb.com/edit/KlYEawn-x" style="color:red"> Soluzione C++ </a>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+
+                <h3> Esercizio 4: Interazione e Output basato sul nome </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi introduzione/Introduzione_es4.png"> 
+
+                    <img src="esercizi introduzione/Introduzione_es4.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un nome come input e mostra un saluto personalizzato con quel nome. </p>
+
+                <a href="https://www.onlinegdb.com/edit/FdhfvAUGo" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+
+
+                <h3> Esercizio 5: Intero, numero con la virgola e carattere </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi introduzione/Introduzione_es5.png"> 
+
+                    <img src="esercizi introduzione/Introduzione_es5.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un intero (int), un numero con la virgola (double o float) e un carattere (char), e visualizza tutti i tipi di dati menzionati. </p>
+
+                <a href="https://www.onlinegdb.com/edit/uE57EQ0CP" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h2> Condizioni </h2>
+
+                <h3> Esercizio 6 : Numero positivo, negativo o nullo </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es1.png"> 
+
+                    <img src="esercizi condizione/Condizione_es1.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero e determina se è positivo, negativo o nullo (uguale a 0). </p>
+
+                <a href="https://www.onlinegdb.com/edit/aG4M2MlhF" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+
+                <h3> Esercizio 7: Numero maggiore tra due numeri interi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es2.png"> 
+
+                    <img src="esercizi condizione/Condizione_es2.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede due numeri interi e determina quale numero è il maggiore. </p>
+
+                <a href="https://www.onlinegdb.com/edit/3_E-OSx7n" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 8 : Pari o dispari </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es3.png"> 
+
+                    <img src="esercizi condizione/Condizione_es3.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero e determina se è pari o dispari. </p>
+
+                <a href="https://www.onlinegdb.com/edit/gtalgaKng" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+
+
+                <h3> Esercizio 9: Numero minore tra due numeri interi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es4.png"> 
+
+                    <img src="esercizi condizione/Condizione_es4.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede due numeri interi e determina quale numero è il minore. </p>
+
+                <a href="https://www.onlinegdb.com/edit/CVTqtx0hz" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 10: Numero massimo tra tre numeri interi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es5.png"> 
+
+                    <img src="esercizi condizione/Condizione_es5.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede tre numeri interi e determina quale numero è il massimo tra di loro. </p>
+
+                <a href="https://www.onlinegdb.com/edit/kCVmZpUzs" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 11: Numero minimo tra tre numeri interi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es6.png"> 
+
+                    <img src="esercizi condizione/Condizione_es6.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede tre numeri interi e determina quale numero è il minimo tra di loro. </p>
+
+                <a href="https://www.onlinegdb.com/edit/06F8xVjXTs" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 12: Maggiorenne o minorenne </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es7.png"> 
+
+                    <img src="esercizi condizione/Condizione_es7.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero e determina se la persona corrispondente a quell'età è maggiorenne o minorenne. </p>
+
+                <a href="https://www.onlinegdb.com/edit/-N6LNycgv" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 13: Numeri multipli </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es8.png"> 
+
+                    <img src="esercizi condizione/Condizione_es8.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede due numeri interi e determina se sono multipli l'uno dell'altro. </p>
+
+                <a href="https://www.onlinegdb.com/edit/mTKoG3MGb" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 14: Anno bisestile </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es9.png"> 
+
+                    <img src="esercizi condizione/Condizione_es9.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero che rappresenta un anno e determina se è un anno bisestile o meno. 
+                    Un anno è considerato bisestile se è divisibile per 4 ma non per 100, a meno che non sia divisibile per 400. Ad esempio, 
+                    il 1900 non è stato un anno bisestile, mentre il 2000 lo è stato. </p>
+
+                <a href="https://www.onlinegdb.com/edit/8AbgVF4DU" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 15: Uomo sulla Luna </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es10.png"> 
+
+                    <img src="esercizi condizione/Condizione_es10.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Supponiamo che l'anno in cui l'uomo è andato sulla Luna sia il 1969. 
+                    Scrivi un programma che richiede un numero che rappresenta un anno di nascita 
+                    e determina se la persona è nata nello stesso anno in cui è avvenuto l'allunaggio, 
+                    oppure calcola quanti anni sono trascorsi prima o dopo tale evento. </p>
+
+                <a href="https://www.onlinegdb.com/edit/Px_1b_q9S" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 16: Numeri compresi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es11.png"> 
+
+                    <img src="esercizi condizione/Condizione_es11.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede tre numeri interi chiamati A, B e C e determina se il valore di B è compreso tra A e C. </p>
+
+                <a href="https://www.onlinegdb.com/edit/bftYWKc1g" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 17: Vocali e consonanti </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es12.png"> 
+
+                    <img src="esercizi condizione/Condizione_es12.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un carattere e determina se è una vocale o meno. </p>
+
+                <a href="https://www.onlinegdb.com/edit/FcY-e3koQ" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 18: Verificare una data </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es13.png"> 
+
+                    <img src="esercizi condizione/Condizione_es13.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+                
+                <p> Scrivi un programma che verifica la correttezza di una data inserita, 
+                    considerando che ci sono 12 mesi e che non tutti i mesi hanno 31 giorni. 
+                    Inoltre, il programma deve gestire correttamente gli anni bisestili. </p>
+
+                <a href="https://www.onlinegdb.com/edit/v0XIG0KJk" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 19: Numeri in ordine crescente </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es14.png"> 
+
+                    <img src="esercizi condizione/Condizione_es14.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che legge tre numeri interi e li ordina in modo crescente. </p>
+
+                <a href="https://www.onlinegdb.com/edit/Tj6a-6flh" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 20: Numero maggiore </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es15.png"> 
+
+                    <img src="esercizi condizione/Condizione_es15.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede tre numeri e determina il maggiore tra di essi, 
+                    mostrando il messaggio "Il maggiore è il primo" se il primo numero è il più grande, "Il maggiore è il secondo" se il secondo numero è il più grande, 
+                    e "Il maggiore è il terzo" se il terzo numero è il più grande. </p>
+
+                <a href="https://www.onlinegdb.com/edit/6HePTLRnp" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 21: Confronto tra 2 orari </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es16.png"> 
+
+                    <img src="esercizi condizione/Condizione_es16.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede due orari in ore, minuti e secondi, e determina quale dei due viene prima. </p>
+
+                <a href="https://www.onlinegdb.com/edit/uPhVTUqUk" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 22: Celsius, Fanrenheit e Kelvin </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es17.png"> 
+
+                    <img src="esercizi condizione/Condizione_es17.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede una temperatura in gradi Celsius e la converte in gradi Fahrenheit e Kelvin. 
+                    Se la temperatura inserita è inferiore allo zero assoluto (-273,15 °C), il programma segnalerà un errore. </p>
+
+                <a href="https://www.onlinegdb.com/edit/XlJa42v9SO" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 23: Numeri crescenti </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es18.png"> 
+
+                    <img src="esercizi condizione/Condizione_es18.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede tre numeri interi e determina se sono in progressione aritmetica, 
+                    cioè se la differenza tra due numeri successivi è costante. </p>
+
+                <a href="https://www.onlinegdb.com/edit/2giZao6Zz" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 24: Voto verifica </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es19.png"> 
+
+                    <img src="esercizi condizione/Condizione_es19.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un voto intero e determina se è sufficiente o insufficiente. 
+                    Nel caso di un voto insufficiente, il programma distinguerà tra insufficiente semplice e insufficiente grave. </p>
+
+                <a href="https://www.onlinegdb.com/edit/-OWI9ndCD" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 25: Limiti di velocità </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi condizione/Condizione_es20.png"> 
+
+                    <img src="esercizi condizione/Condizione_es20.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede la velocità massima consentita e la velocità rilevata, e stampa un messaggio appropriato. Se la velocità rilevata è entro i limiti consentiti, il programma stamperà "Limite rispettato". Se la velocità rilevata supera i limiti consentiti, il programma calcolerà l'ammontare della multa da pagare in base alla seguente scala:
+
+                    <br>
+                    <br>
+
+                    <ul>
+
+                        <li> Se la velocità supera di non più di 10 km/h il limite massimo, la multa da pagare sarà di €36. </li>
+                        <li> Se la velocità supera di oltre 10 km/h ma non più di 40 km/h il limite massimo, la multa da pagare sarà di €148. </li>
+                        <li> Se la velocità supera di oltre 40 km/h ma non più di 60 km/h il limite massimo, la multa da pagare sarà di €370. </li>
+                        <li> Se la velocità supera di oltre 60 km/h il limite massimo, la multa da pagare sarà di €500. </li>
+
+                    </ul>
+                    
+                    <p> Il programma stampa il messaggio appropriato con l'ammontare della multa da pagare. </p>
+
+                <a href="https://www.onlinegdb.com/edit/HMelylL3K" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h2> Cicli </h2>
+                
+                <h3> Esercizio 26: Iterazioni di numeri </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es1.png"> 
+
+                    <img src="esercizi cicli/Cicli_es1.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che stampa i primi 100 numeri naturali a video. </p>
+
+                <a href="https://www.onlinegdb.com/edit/y9FNAmRdGc" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 27: Calcola somma </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es2.png"> 
+
+                    <img src="esercizi cicli/Cicli_es2.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede l'inserimento di 10 numeri utilizzando un ciclo, calcola la loro somma e mostra il risultato. </p>
+
+                <a href="https://www.onlinegdb.com/edit/JSeQK5kr9s" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 28: Calcola media </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es3.png"> 
+
+                    <img src="esercizi cicli/Cicli_es3.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero che indica il numero di iterazioni del ciclo. <br>
+                    Durante ogni iterazione, il programma chiederà l'inserimento di un numero, 
+                    calcolerà la somma di tutti i numeri inseriti e infine calcolerà la media di tali numeri. </p>
+
+                <a href="https://www.onlinegdb.com/edit/c_acsRnTr1" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 29: Prodotto tra 2 numeri </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es4.png"> 
+
+                    <img src="esercizi cicli/Cicli_es4.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede due numeri interi e calcola il loro prodotto utilizzando solo l'operazione di somma, utilizzando un ciclo. </p>
+
+                <a href="https://www.onlinegdb.com/edit/--J4dWUuD" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 30: Contatore </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es5.png"> 
+
+                    <img src="esercizi cicli/Cicli_es5.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero che indica il numero di iterazioni del ciclo.
+                    Durante ogni iterazione, il programma chiederà l'inserimento di un numero e alla fine calcolerà quante volte è stato inserito il numero 9. </p>
+
+                <a href="https://www.onlinegdb.com/edit/b3hdEPQpY" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 31: Numeri divisibili </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es6.png"> 
+
+                    <img src="esercizi cicli/Cicli_es6.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero che rappresenta il numero di iterazioni. <br>
+                    Durante ogni iterazione, il programma chiederà l'inserimento di un numero e conterà quanti di questi numeri sono divisibili per 3. </p>
+
+                <a href="https://www.onlinegdb.com/edit/4n8-9Di3U" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 32: Numero minimo tra tanti numeri </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es7.png"> 
+
+                    <img src="esercizi cicli/Cicli_es7.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede il numero N di misurazioni e calcola il valore minimo tra di esse, poi lo visualizza. </p>
+
+                <a href="https://www.onlinegdb.com/edit/R6JwV3F4iM" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 33: Primi 100 termini di una successione armonica </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es8.png"> 
+
+                    <img src="esercizi cicli/Cicli_es8.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che calcola la somma dei primi 100 termini della seguente successione: 1/1, 1/2, 1/3, 1/4, ..., 1/100 e visualizza il risultato a video. </p>
+
+                <a href="https://www.onlinegdb.com/edit/-3rMhnrXh-" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 34: Somma con iterazione indefinita </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es9.png"> 
+
+                    <img src="esercizi cicli/Cicli_es9.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+                
+                <p> Scrivi un programma che richiede una serie di numeri interi e calcola la somma totale. <br>
+                    La serie termina quando viene inserito il valore 0, e a quel punto viene visualizzata la somma totale. </p>
+
+                <a href="https://www.onlinegdb.com/edit/65ypwq6nG" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 35: Pattern </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es10.png"> 
+
+                    <img src="esercizi cicli/Cicli_es10.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero compreso tra 1 e 20 e stampa gli asterischi corrispondenti a quel numero. </p>
+
+                <a href="https://www.onlinegdb.com/edit/70vnDFV1O" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 36: Numero massimo tra tant numeri </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es11.png"> 
+
+                    <img src="esercizi cicli/Cicli_es11.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede il numero N di misurazioni e calcola il valore massimo tra di esse, poi lo visualizza. </p>
+
+                <a href="https://www.onlinegdb.com/edit/6yM6uXY6f" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 37: Iterazione definita </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es12.png"> 
+
+                    <img src="esercizi cicli/Cicli_es12.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero positivo che indica il numero di iterazioni del ciclo. <br>
+                    Durante ogni iterazione, il programma calcola la somma dei numeri naturali da 1 a N e infine visualizza il risultato. </p>
+
+                <a href="https://www.onlinegdb.com/edit/5ORJ_gDFv" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 38: Pari o dispari </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es13.png"> 
+
+                    <img src="esercizi cicli/Cicli_es13.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero positivo e determina se è pari o dispari utilizzando solo l'operazione di sottrazione. </p>
+
+                <a href="https://www.onlinegdb.com/edit/0aWkNLB17" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 39: Potenze </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es14.png"> 
+
+                    <img src="esercizi cicli/Cicli_es14.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero per la base e un numero intero positivo per l'esponente, 
+                    e visualizza tutte le potenze della base elevate all'esponente. </p>
+
+                <a href="https://www.onlinegdb.com/edit/mHGLRsqBW" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 40: Multipli </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es15.png"> 
+
+                    <img src="esercizi cicli/Cicli_es15.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che calcola e visualizza tutti i multipli di 5 che sono inferiori a 100. </p>
+
+                <a href="https://www.onlinegdb.com/edit/7pLIYTM5g" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 41: Somma numeri dispari </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es16.png"> 
+
+                    <img src="esercizi cicli/Cicli_es16.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede l'inserimento di una serie di numeri e calcola la loro somma solo se sono dispari. 
+                    L'immisione viene interrotta quando la somma raggiunge o supera il valore 100. </p>
+
+                <a href="https://www.onlinegdb.com/edit/69VPjW5LY" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 42: Somma numeri quadrati </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es17.png"> 
+
+                    <img src="esercizi cicli/Cicli_es17.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede l'inserimento di N numeri da tastiera e calcola la somma dei loro quadrati. </p>
+
+                <a href="https://www.onlinegdb.com/edit/3gJY4dC5L" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+                
+
+                <h3> Esercizio 43: Somma di numeri compresi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es18.png"> 
+
+                    <img src="esercizi cicli/Cicli_es18.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede l'inserimento di un elenco di N numeri e conta e somma quelli compresi tra 20 e 80 (estremi esclusi). </p>
+
+                <a href="https://www.onlinegdb.com/edit/tEe86uaq4" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 44: Altezze delle persone </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es19.png"> 
+
+                    <img src="esercizi cicli/Cicli_es19.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che acquisisce l'altezza di ogni individuo e calcola:
+
+                    <br>
+                    <br>
+
+                    <ul>
+
+                        <li> L'altezza media di tutte le persone </li>
+                        <li> Il numero di persone che superano l'altezza di 1,80 metri </li>
+                        <li> Il numero di persone che sono più basse dell'altezza di 1,65 metri </li>
+                
+                    </ul> </p>
+
+                <a href="https://www.onlinegdb.com/edit/MlkSh4ziX" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 45: Tabellina </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi cicli/Cicli_es20.png"> 
+
+                    <img src="esercizi cicli/Cicli_es20.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che richiede un numero intero e visualizza la tabellina del numero inserito. </p>
+
+                <a href="https://www.onlinegdb.com/edit/iI0n43jYY" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h2> Funzioni </h2>
+
+                <h3> Esercizio 46: Saluto </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es1.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es1.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Crea un programma che utilizza una funzione per visualizzare un saluto sullo schermo. </p>
+
+                <a href="https://www.onlinegdb.com/edit/aHvjNigpJ" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 47: Valore assoluto </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es2.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es2.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, utilizzando una funzione, calcoli il valore assoluto di un numero intero passato come parametro. </p>
+
+                <a href="https://www.onlinegdb.com/edit/96-aO7eZb" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 48: Numero massimo </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es3.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es3.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, utilizzando una funzione, determini il numero maggiore tra due numeri interi dati. </p>
+
+                <a href="https://www.onlinegdb.com/edit/P0xJ9TMYw" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 49: Numero minimo </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es4.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es4.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, utilizzando una funzione, determini il numero minore tra due numeri interi dati. </p>
+
+                <a href="https://www.onlinegdb.com/edit/Gc5-cTLlOI" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                
+                <h3> Esercizio 50: Confronto tra 2 tempi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es5.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es5.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, utilizzando una funzione, converta due tempi dati nel formato ore:minuti:secondi in un unico valore espresso in secondi e determini quale dei due tempi è maggiore. </p>
+
+                <a href="https://www.onlinegdb.com/edit/lXvvtpfcjz" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 51: Massimo, minimo e differenza </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es6.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es6.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, utilizzando funzioni, calcoli il valore massimo e minimo tra tre numeri interi e determini la loro differenza. </p>
+
+                <a href="https://www.onlinegdb.com/edit/30BiaHlhI" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 52: Maiuscole </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es7.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es7.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, utilizzando una funzione, conti quanti dei tre caratteri dati sono in maiuscolo. </p>
+
+                <a href="https://www.onlinegdb.com/edit/YZDJnk8Mn" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 53: Somma, prodotto e differenza </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es8.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es8.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che calcoli il prodotto e la somma di tre numeri interi e restituisca la loro differenza. </p>
+
+                <a href="https://www.onlinegdb.com/edit/FYDDX1Kmf" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 54: Numeri naturali </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es9.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es9.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, utilizzando una funzione, verifichi se un numero intero è naturale o meno. 
+                    La funzione dovrà richiedere all'utente di inserire un numero 'n'. Nel caso in cui 'n' sia naturale, 
+                    il programma dovrà chiedere all'utente di inserire ulteriori numeri e, alla fine, stampare quanti di questi sono numeri naturali. </p>
+
+                <a href="https://www.onlinegdb.com/edit/tZvSzYWfP" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 55: Numeri con divisori </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es10.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es10.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, utilizzando una funzione, 
+                    verifichi se un numero inserito dall'utente è tale che sia il numero intero più grande ma inferiore al suo quadrato, 
+                    e che entrambi abbiano almeno tre divisori. </p>
+
+                <a href="https://www.onlinegdb.com/edit/P5ciyvG9S" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 56: Numeri divisibili </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es11.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es11.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    utilizzando una funzione, 
+                    analizzi un numero intero e restituisca il conteggio dei numeri divisibili per esso, 
+                    insieme al numero divisibile indicando quante volte può essere diviso. </p>
+
+                <a href="https://www.onlinegdb.com/edit/IC2Kaitxq" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 57: Conta vocali </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es12.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es12.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    utilizzando due numeri interi per definire la lunghezza di due parole, 
+                    richieda all'utente di inserire lettera per lettera le due parole e conti quante vocali sono presenti. </p>
+
+                <a href="https://www.onlinegdb.com/edit/2vZoMveZ4" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 58: Coppia di numeri </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es13.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es13.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, dato un input di due coppie composte da tre numeri interi, identifichi se uno dei numeri della prima tripletta è ripetuto nella seconda tripletta. 
+                    In caso affermativo, il programma restituirà il numero ripetuto; in caso contrario, restituirà -1. 
+                    Inoltre, crea una funzione che confronti le due triplette di numeri naturali e determini quale coppia contiene il numero più alto. </p>
+
+                <a href="https://www.onlinegdb.com/edit/PFX2ah_sM" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 59: Pattern </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es14.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es14.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, utilizzando una funzione, stampi un quadrato composto da '+' dato un numero intero. </p>
+
+                <a href="https://www.onlinegdb.com/edit/yZZKDhFuy" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 60: Robin Hood </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es15.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es15.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Robin Hood è un ladro gentiluomo che ruba ai ricchi per dare ai poveri, 
+                    ma desidera mantenere i ricchi nella loro situazione attuale. 
+                    Dato che due persone hanno una quantità di denaro 'x' e 'y', 
+                    utilizzando la funzione robinHood, 
+                    l'obiettivo è bilanciare la quantità di denaro tra le due persone. </p>
+
+                <a href="https://www.onlinegdb.com/edit/34JZa-fRA" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 61: MCM e MCD tra 2 numeri </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es16.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es16.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    utilizzando due funzioni, 
+                    calcoli l'MCD (Massimo Comun Divisore) e l'MCM (Minimo Comun Multiplo) tra due numeri interi dati. </p>
+
+                <a href="https://www.onlinegdb.com/edit/JR3-nDX8h" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 62: MCM e MCD tra 4 numeri </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es17.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es17.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    utilizzando le funzioni, 
+                    calcoli l'MCD (Massimo Comun Divisore) e l'MCM (Minimo Comun Multiplo) tra quattro numeri interi dati. </p>
+
+                <a href="https://www.onlinegdb.com/edit/gb3K4xpFEC" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 63: Calcolatrice </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es18.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es18.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che simuli una calcolatrice. Il programma richiede all'utente di inserire due numeri e un operatore matematico tra le seguenti opzioni:
+
+                    <br>
+                    <br>
+
+                    <ul>
+
+                        <li> addizione </li>
+                        <li> sottrazione </li>
+                        <li> moltiplicazione </li>
+                        <li> divisione </li>
+
+                    </ul>
+
+                    
+                    <p> Successivamente, calcola il risultato utilizzando le funzioni appropriate. </p>
+
+                <a href="https://www.onlinegdb.com/edit/hkVV5wTDP" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 64: Conta cifre </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es19.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es19.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, tramite una funzione, determini il numero di cifre di un dato numero intero. </p>
+
+                <a href="https://www.onlinegdb.com/edit/v912apUcY" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 65: Cifre invertite </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi funzioni/Funzioni_es20.png"> 
+
+                    <img src="esercizi funzioni/Funzioni_es20.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, utilizzando una funzione, visualizzi le cifre di un numero intero in ordine inverso. </p>
+
+                <a href="https://www.onlinegdb.com/edit/pNxta-cNZ" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h2> Array </h2> 
+
+                <h3> Esercizio 66: Memorizza elementi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es1.png"> 
+
+                    <img src="esercizi array/Array_es1.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che memorizzi un array di 10 numeri interi e visualizzi il contenuto degli elementi inseriti. </p>
+
+                <a href="https://www.onlinegdb.com/edit/b2MAL8AS-" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 67: Somma e media di tutti gli elementi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es2.png"> 
+
+                    <img src="esercizi array/Array_es2.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, dati 10 numeri interi naturali, calcoli la loro somma e media. </p>
+
+                <a href="https://www.onlinegdb.com/edit/8WW8zWw5q" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 68: Elementi pari o dispari </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es3.png"> 
+
+                    <img src="esercizi array/Array_es3.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+                
+                <p> Scrivi un programma che dato un numero intero positivo dichiari la dimensione dell'array 
+                    e inserisce dei numeri che conta quanti numeri sono pari e quali dispari. </p>
+
+                <a href="https://www.onlinegdb.com/edit/--gF_5Bk1L" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 69: Elementi positivi, negativi o nulli </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es4.png"> 
+
+                    <img src="esercizi array/Array_es4.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, dato un numero intero positivo, dichiari la dimensione dell'array e inserisca dei numeri. 
+                    Successivamente, conti quanti numeri sono positivi, negativi e nulli. </p>
+
+                <a href="https://www.onlinegdb.com/edit/wps4fxEDK" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 70: Elementi primi e non primi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es5.png"> 
+
+                    <img src="esercizi array/Array_es5.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+                
+                <p> Scrivi un programma che, data una certa capacità per l'array, 
+                    inserisca dei numeri interi e conti quanti di essi sono numeri primi e quanti non lo sono. </p>
+
+                <a href="https://www.onlinegdb.com/edit/CcYeDebcK" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 71: Elementi inversi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es6.png"> 
+
+                    <img src="esercizi array/Array_es6.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che memorizzi i primi 100 numeri naturali in ordine inverso e successivamente li stampi a video. </p>
+
+                <a href="https://www.onlinegdb.com/edit/x9dwvDXZz" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 72: Numeri casuali </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es7.png"> 
+
+                    <img src="esercizi array/Array_es7.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato un array di dimensione 10, 
+                    generi numeri interi casuali all'interno dell'array e visualizzi i numeri generati. </p>
+
+                <a href="https://www.onlinegdb.com/edit/nQC9dOxGC" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 73: Ricerca di un numero </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es8.png"> 
+
+                    <img src="esercizi array/Array_es8.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    data la dimensione dell'array e i numeri generati al suo interno, 
+                    effettui la ricerca di un determinato numero. Se il numero viene trovato, 
+                    il programma mostrerà la posizione in cui si trova. 
+                    Altrimenti, se il numero non viene trovato, 
+                    verrà visualizzato il messaggio "non trovato". </p>
+
+                <a href="https://www.onlinegdb.com/edit/MxLvZcIB1" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 74: Elemento massimo e minimo </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es9.png"> 
+
+                    <img src="esercizi array/Array_es9.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    data la dimensione di un array e i numeri generati casualmente, 
+                    trovi il numero massimo e il numero minimo. </p>
+
+                <a href="https://www.onlinegdb.com/edit/M2cuG8E00" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 75: Numeri che si ripetono </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es10.png"> 
+
+                    <img src="esercizi array/Array_es10.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    data la dimensione di un array e i numeri generati casualmente, 
+                    trovi il numero che si ripete almeno due volte. </p>
+
+                <a href="https://www.onlinegdb.com/edit/egj1j08rT" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 76: Conta numeri nulli </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es11.png"> 
+
+                    <img src="esercizi array/Array_es11.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che,
+                    dopo aver specificato la dimensione di un array e inserito dei numeri interi, 
+                    conti quante volte è stato inserito il numero 0. </p>
+
+                <a href="https://www.onlinegdb.com/edit/ahDnJDkRe" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 77: Numeri palindromi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es12.png"> 
+
+                    <img src="esercizi array/Array_es12.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato un array di dimensione 10 con numeri scelti dall'utente, 
+                    verifichi se l'array è palindromo o meno. </p>
+
+                <a href="https://www.onlinegdb.com/edit/D9F1PoFmS" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 78: Somma numeri positivi e negativi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es13.png"> 
+
+                    <img src="esercizi array/Array_es13.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    data una dimensione per l'array e numeri generati casualmente, 
+                    calcoli la somma dei numeri positivi e dei numeri negativi. </p>
+
+                <a href="https://www.onlinegdb.com/edit/h96erhJ9z" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 79: Riodinare i numeri (crescente) </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es14.png"> 
+
+                    <img src="esercizi array/Array_es14.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato un array di una certa dimensione e numeri generati casualmente, 
+                    riordini l'array in modo crescente utilizzando l'algoritmo di bubble-sort. </p>
+
+                <a href="https://www.onlinegdb.com/edit/dPHmYU1dy" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 80: Riodinare i numeri (decrescente) </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es15.png"> 
+
+                    <img src="esercizi array/Array_es15.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato un array di una certa dimensione e numeri generati casualmente, 
+                    riordini l'array in modo decrescente utilizzando l'algoritmo di bubble-sort. </p>
+
+                <a href="https://www.onlinegdb.com/edit/spaiCbIKy" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 81: Cancella numeri doppi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es16.png"> 
+
+                    <img src="esercizi array/Array_es16.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    data una dimensione per l'array e con numeri inseriti dall'utente, 
+                    rimuova i numeri duplicati che compaiono almeno due volte. </p>
+
+                <a href="https://www.onlinegdb.com/edit/VGSPstQTM" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 82: Somma tra array </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es17.png"> 
+
+                    <img src="esercizi array/Array_es17.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dati due array della stessa dimensione con numeri generati casualmente, 
+                    calcoli la somma degli elementi con lo stesso indice e li memorizzi in un nuovo array. </p>
+
+                <a href="https://www.onlinegdb.com/edit/-SDRMZzbg" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 83: Stampa inversa degli elementi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es18.png"> 
+
+                    <img src="esercizi array/Array_es18.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dopo aver specificato la dimensione per l'array e aver inserito dei numeri dall'utente, 
+                    stampi a video i numeri inseriti e successivamente li stampi in ordine inverso. </p>
+
+                <a href="https://www.onlinegdb.com/edit/NXAY8Wvzv" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 84: Caratteri maiuscoli, minuscoli e speciali </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es19.png"> 
+
+                    <img src="esercizi array/Array_es19.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    specificata la dimensione dell'array di caratteri, 
+                    permetta di inserire manualmente i caratteri e successivamente indichi quanti caratteri sono stati inseriti in formato maiuscolo, 
+                    minuscolo e caratteri speciali. </p>
+
+                <a href="https://www.onlinegdb.com/edit/dcUnxlJ3Q" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 85: Fusione tra 2 array </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi array/Array_es20.png"> 
+
+                    <img src="esercizi array/Array_es20.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    specificata la dimensione per due array, 
+                    generi numeri casuali per ciascun array, 
+                    unisca i due array in un unico array e lo stampi a video. </p>
+
+                <a href="https://www.onlinegdb.com/edit/uk3ftrFYHI" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h2> Matrici </h2>
+
+                <h3> Esercizio 86: Numeri casuali </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es1.png"> 
+
+                    <img src="esercizi matrici/Matrici_es1.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    data una matrice di dimensioni 10x10, 
+                    generi numeri interi casuali all'interno della matrice e li mostri a video. </p>
+
+                <a href="https://www.onlinegdb.com/edit/6QWVSoa48" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 87: Tabellina </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es2.png"> 
+
+                    <img src="esercizi matrici/Matrici_es2.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    data una matrice, 
+                    mostri la sua tabellina. </p>
+
+                <a href="https://www.onlinegdb.com/edit/Dj6Dgtdmd" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 88: Somma e media degli elementi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es3.png"> 
+
+                    <img src="esercizi matrici/Matrici_es3.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato un input dell'utente per la dimensione di una matrice e l'inizializzazione con numeri casuali, 
+                    calcoli la somma e la media degli elementi della matrice. </p>
+
+                <a href="https://www.onlinegdb.com/edit/VrXgbWqcO" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 89: Numero massimo e minimo degli elementi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es4.png"> 
+
+                    <img src="esercizi matrici/Matrici_es4.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato l'input dell'utente per la dimensione di una matrice e l'inizializzazione con numeri casuali, 
+                    trovi il numero massimo e il numero minimo presenti nella matrice. </p>
+
+                <a href="https://www.onlinegdb.com/edit/jmRGuoyTi" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 90: Somma degli elementi delle matrici </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es5.png"> 
+
+                    <img src="esercizi matrici/Matrici_es5.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che prenda in input tre matrici. 
+                    La prima e la seconda matrice devono essere inizializzate con numeri interi casuali. 
+                    Il programma deve calcolare la somma delle prime due matrici e restituire il risultato come terza matrice. </p>
+
+                <a href="https://www.onlinegdb.com/edit/PGAoQk2IOO" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 91: Matrice trasportata </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es6.png"> 
+
+                    <img src="esercizi matrici/Matrici_es6.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che crei una matrice 10x10 inizializzata con numeri interi casuali e visualizzi la sua trasposta. </p>
+
+                <a href="https://www.onlinegdb.com/edit/6DsssLpJY" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 92: Conta numeri superiori </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es7.png"> 
+
+                    <img src="esercizi matrici/Matrici_es7.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che prenda in input una matrice e un valore k, 
+                    e restituisca il conteggio dei numeri interi nella matrice che sono maggiori di k. </p>
+
+                <a href="https://www.onlinegdb.com/edit/zdTESeegJ" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 93: Numeri pari </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es8.png"> 
+
+                    <img src="esercizi matrici/Matrici_es8.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che prenda in input una matrice e visualizzi a schermo i numeri pari presenti nella matrice, 
+                    mentre per gli altri numeri mostri 0. </p>
+
+                <a href="https://www.onlinegdb.com/edit/uH-SM1pai" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 94: Mostra numeri superiori </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es9.png"> 
+
+                    <img src="esercizi matrici/Matrici_es9.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che prenda in input una matrice e un numero k, 
+                    e crei una nuova matrice in cui vengono visualizzati solo i numeri maggiori di k della matrice originale. 
+                    Per gli altri numeri, il valore nella nuova matrice sarà 0. </p>
+
+                <a href="https://www.onlinegdb.com/edit/WmvPvYFYy" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 95: Prodotto tra 2 elementi delle matrici </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es10.png"> 
+
+                    <img src="esercizi matrici/Matrici_es10.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che prenda in input due matrici, 
+                    entrambe con numeri interi generati casualmente, 
+                    e calcoli il prodotto degli elementi corrispondenti delle due matrici. </p>
+
+                <a href="https://www.onlinegdb.com/edit/EYZZq6bj3" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 96: Elemento da cercare </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es11.png"> 
+
+                    <img src="esercizi matrici/Matrici_es11.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che prenda in input una matrice e un numero intero, 
+                    e permetta di cercare se il numero è presente nella matrice. 
+                    In caso positivo, 
+                    il programma deve restituire le coordinate della posizione del numero nella matrice; 
+                    altrimenti, deve indicare che il numero non è presente. </p>
+
+                <a href="https://www.onlinegdb.com/edit/umU7dFMxm" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 97: Diagonale </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es12.png"> 
+
+                    <img src="esercizi matrici/Matrici_es12.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    data una matrice, 
+                    verifichi se tutte le diagonali della matrice sono uguali tra di loro. </p>
+
+                <a href="https://www.onlinegdb.com/edit/OSqtrQBct" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 98: Numeri diversi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es13.png"> 
+
+                    <img src="esercizi matrici/Matrici_es13.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato un numero di dimensione per una matrice, 
+                    generi casualmente una matrice in cui tutti i numeri sono diversi tra di loro. </p>
+
+                <a href="https://www.onlinegdb.com/edit/SHPsTwcIG" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 99: Riordina la matrice </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es14.png"> 
+
+                    <img src="esercizi matrici/Matrici_es14.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che generi casualmente una matrice con numeri interi 
+                    e permetta all'utente di inserire il carattere 'c' per riordinare la matrice in modo crescente o 'd' per riordinarla in modo decrescente, 
+                    utilizzando l'algoritmo Bubble Sort. 
+                    Successivamente, 
+                    il programma deve mostrare la matrice riordinata a schermo. </p>
+
+                <a href="https://www.onlinegdb.com/edit/YqhpcFG2s" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 100: Somma palindroma </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es15.png"> 
+
+                    <img src="esercizi matrici/Matrici_es15.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato una matrice di interi con dimensioni 6x6, 
+                    verifichi se è palindroma per riga. 
+                    In altre parole, 
+                    controlla se la somma dei numeri nella prima riga è uguale alla somma dei numeri nell'ultima riga, 
+                    se la somma degli elementi della seconda riga è uguale alla somma dei numeri nella riga penultima, 
+                    e così via per tutte le righe. </p>
+
+                <a href="https://www.onlinegdb.com/edit/HVdWfCKMr" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 101: Numeri compresi tra tutti gli elementi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es16.png"> 
+
+                    <img src="esercizi matrici/Matrici_es16.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato una matrice di interi con dimensioni 5x5 e due numeri interi N e M, 
+                    verifichi se tutti i numeri della matrice si trovano nell'intervallo compreso tra N e M. </p>
+
+                <a href="https://www.onlinegdb.com/edit/r8kXN_bWY" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 102: Somma massima tra colonna e riga </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es17.png"> 
+
+                    <img src="esercizi matrici/Matrici_es17.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato una matrice di interi con dimensione 4x4, 
+                    trovi la riga o la colonna con la somma più alta. </p>
+
+                <a href="https://www.onlinegdb.com/edit/MHHx_QMT-" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 103: Numeri che si ripetono </h3>
+                
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es18.png"> 
+
+                    <img src="esercizi matrici/Matrici_es18.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che generi casualmente una matrice di 30 numeri interi compresi tra 1 e 40. 
+                    Successivamente, 
+                    riordina la matrice e individua i numeri che si ripetono. </p>
+
+                <a href="https://www.onlinegdb.com/edit/gSO8CeCFF" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 104: Trova elemento massimo e minimo </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es19.png"> 
+
+                    <img src="esercizi matrici/Matrici_es19.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato una matrice con la sua dimensione, 
+                    trovi il numero massimo e il numero minimo nella matrice, 
+                    indicando anche le relative coordinate. </p>
+
+                <a href="https://www.onlinegdb.com/edit/csI026XfP" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h3> Esercizio 105: Conversione elementi da decimale a binario </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="esercizi matrici/Matrici_es20.png"> 
+
+                    <img src="esercizi matrici/Matrici_es20.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che, 
+                    dato la dimensione di una matrice e numeri interi generati casualmente, 
+                    converta i numeri in formato binario considerando il numero di bit specificato da un altro numero intero. </p>
+
+                <a href="https://www.onlinegdb.com/edit/NnKRAnsYo" style="color:red"> Soluzione C++ </a>
+
+                <br>         
+                <br>         
+                <br>         
+                <br>         
+                <br>
+
+                <h2> Altri esercizi </h2>
+
+                <h3> Esercizio 106: Lancio dei dadi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="altri_esercizi/altri_es1.png"> 
+
+                    <img src="altri_esercizi/altri_es1.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p>  Scrivi un programma che simula il lancio di un dado e visualizza il risultato ottenuto. </p>
+
+                <a href="https://www.onlinegdb.com/edit/ZayIvafsk" style="color:red"> Soluzione C++ </a>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3> Esercizio 107: Calcolo del fattoriale </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="altri_esercizi/altri_es2.png"> 
+
+                    <img src="altri_esercizi/altri_es2.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che chiede all'utente di inserire un numero intero positivo e calcola il suo fattoriale utilizzando un ciclo. 
+                    Il fattoriale di un numero n è il prodotto di tutti i numeri interi positivi da 1 a n. 
+                    Mostra il risultato all'utente. </p>
+
+                <a href="https://www.onlinegdb.com/edit/WAYYlLPYt" style="color:red"> Soluzione C++ </a>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3> Esercizio 108: Calcolo del numero di Fibonacci </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="altri_esercizi/altri_es3.png"> 
+
+                    <img src="altri_esercizi/altri_es3.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che chiede all'utente di inserire un numero intero positivo e calcola il numero di Fibonacci corrispondente. 
+                    La sequenza di Fibonacci è una sequenza di numeri in cui ciascun numero è la somma dei due numeri precedenti. 
+                    Mostra il risultato all'utente. </p>
+
+                <a href="https://www.onlinegdb.com/edit/g2kKUR7c_" style="color:red"> Soluzione C++ </a>
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3> Esercizio 109: Verifica numero primo </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="altri_esercizi/altri_es4.png"> 
+
+                    <img src="altri_esercizi/altri_es4.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che chiede all'utente di inserire un numero intero positivo e verifica se il numero è primo. 
+                    Un numero è considerato primo se è divisibile solo per 1 e per se stesso. 
+                    Mostra un messaggio all'utente indicando se il numero è primo o no. </p>
+
+                <a href="https://www.onlinegdb.com/edit/BoQFjhVPA" style="color:red"> Soluzione C++ </a>
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3> Esercizio 110: Somma dei numeri primi </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="altri_esercizi/altri_es5.png"> 
+
+                    <img src="altri_esercizi/altri_es5.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che chiede all'utente di inserire un numero intero positivo e calcola la somma di tutti i numeri primi da 2 fino al numero inserito. 
+                    Un numero primo è un numero maggiore di 1 che è divisibile solo per 1 e per se stesso. 
+                    Mostra il risultato all'utente. </p>
+
+                <a href="https://www.onlinegdb.com/edit/hz6FYkgjlu" style="color:red"> Soluzione C++ </a>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3> Esercizio 111: Cifratura di Cesare </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="altri_esercizi/altri_es6.png"> 
+
+                    <img src="altri_esercizi/altri_es6.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> La cifratura di Cesare è una tecnica di crittografia che coinvolge lo spostamento di ogni lettera in un testo di un numero fisso di posizioni verso destra nell'alfabeto. 
+                    Ad esempio, se lo spostamento è di 3 posizioni, la lettera 'A' diventa 'D', 'B' diventa 'E', 'C' diventa 'F', e così via. 
+                    Questa tecnica prende il nome dall'imperatore romano Giulio Cesare, che l'usava per comunicare in modo sicuro con i suoi generali. </p>
+
+                <a href="https://www.onlinegdb.com/edit/BDv-amOqB" style="color:red"> Soluzione C++ </a>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3> Esercizio 112: Genera password </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="altri_esercizi/altri_es7.png"> 
+
+                    <img src="altri_esercizi/altri_es7.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che sia in grado di generare una password casuale. 
+                    Il programma deve essere in grado di generare una sequenza di caratteri casuali, 
+                    con una lunghezza specificata, e restituire la password generata come output. </p>
+
+                <a href="https://www.onlinegdb.com/edit/U2JCp6N-v" style="color:red"> Soluzione C++ </a>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3> Esercizio 113: Automobili </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="altri_esercizi/altri_es8.png"> 
+
+                    <img src="altri_esercizi/altri_es8.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che includa una classe chiamata 'Automobile' con dati di istanza per il marchio, la capienza, la cilindrata e il numero di posti. 
+                    Il programma dovrebbe visualizzare il video con la descrizione completa dell'oggetto inizializzato." </p>
+
+                <a href="https://www.onlinegdb.com/edit/q9v1KPef_" style="color:red"> Soluzione C++ </a>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3> Esercizio 114: Persona </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="altri_esercizi/altri_es9.png"> 
+
+                    <img src="altri_esercizi/altri_es9.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che definisca una classe chiamata 'Persona' con variabili di istanza per il cognome, il nome, l'età e la professione. 
+                    Il programma dovrebbe visualizzare la descrizione dell'oggetto con i dati inseriti dall'utente. </p>
+
+                <a href="https://www.onlinegdb.com/edit/tH6CyvUv3" style="color:red"> Soluzione C++ </a>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3> Esercizio 115: Banca </h3>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="altri_esercizi/altri_es10.png">
+
+                    <img src="altri_esercizi/altri_es10.png" alt="Terminale di Windows che mostra l'esecuzione dell'esercizio">
+
+                </a>
+
+                <p> Scrivi un programma che definisca una classe chiamata 'Banca'. 
+                    La classe 'Banca' ha due variabili di istanza: 'nome' e 'saldo'. 
+                    Puoi scegliere di inizializzare il saldo a 0 o specificare un saldo iniziale. 
+                    Il programma dovrebbe includere due metodi: 'deposito' e 'prelievo', che consentono di effettuare operazioni di deposito e prelievo sul saldo della persona associata alla banca. 
+                    Infine, il programma dovrebbe visualizzare lo stato della persona, inclusi il nome e il saldo corrente. </p>
+                    
+                <a href="https://www.onlinegdb.com/edit/VRUcKSSxD" style="color:red"> Soluzione C++ </a>
+
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6416822263103571"
+     crossorigin="anonymous"></script>
+
+
+            <div id="footer">
+
+                <br>
+
+                <p> &copy; 2023 Pichiu Luca Cristian. Tutti i diritti riservati </p>
+
+            </div>
+
+        </center>
+
+        
+
+    </body>
+
+</html>
